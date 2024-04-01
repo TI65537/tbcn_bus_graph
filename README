@@ -34,4 +34,3 @@ tbcn_bus_graph_cpp_c  停留所を順に線で結んだもの
 tbcn_bus_graph_cpp_d  標柱を順に線で結んだもの 路線ごとに色分け
 tbcn_bus_graph_cpp_e  標柱を順に線で結んだもの
 
-サンプルのpdf, svgファイルは2024/03/31改正の路線データを使用しています。
