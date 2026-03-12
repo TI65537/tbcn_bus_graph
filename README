@@ -17,9 +17,9 @@
 1. 作りたいグラフ用のC++コードファイルとtbcn_bus_graph_cpp_line.cppを作業ディレクトリに配置する。
 2. 名古屋市交通局Webサイトから停留所一覧、系統一覧、並順一覧のcsvファイルをダウンロードし、作業ディレクトリに配置する。
    これらのファイルの名前をそれぞれにteiryuujyo.csv、keitou.csv、narabijyunn.csvに改名し文字コードをUTF-8にする。
-   各ファイルの行数をtbcn_bus_graph_cpp_line.cppに書き込む。
-3. 作りたいグラフ用のC++コードファイルをコンパイルして、実行する。標準出力にDOT言語のコードが出力されるので、ファイルに保存する。
-4. 保存したファイルを-n1オプションを付けてGraphvizに入力する。
+3. 各ファイルの行数をtbcn_bus_graph_cpp_line.cppに書き込む。
+4. 作りたいグラフ用のC++コードファイルをコンパイルして、実行する。標準出力にDOT言語のコードが出力されるので、ファイルに保存する。
+5. 保存したファイルを-n1オプションを付けてGraphvizに入力する。
 
 コマンド実行例:
 c++ tbcn_bus_graph_cpp_1.cpp -o tbcn_bus_graph_cpp_1.exe
