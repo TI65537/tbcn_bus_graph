@@ -104,7 +104,7 @@ int main(void){
         };
     };
     //////////
-    std::cout << "digraph G{graph[forcelabels=true;layout=neato;size=\"25,25\";fontsize=100];\
+    std::cout << "digraph G{graph[forcelabels=true;layout=neato;size=\"40,40\";fontsize=100];\
                             node[fontsize=100;pin=true;label=\"\"];";
     //////////
     for(int i=0;i<teiryuujyo_line;++i){
@@ -164,3 +164,4 @@ int main(void){
     delete [] n_basutei;
     return 0;
 };
+
