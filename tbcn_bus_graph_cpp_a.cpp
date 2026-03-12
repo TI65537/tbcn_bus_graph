@@ -104,7 +104,7 @@ int main(void){
         };
     };
     //////////
-    std::cout << "digraph G{graph[splines=polyline;forcelabels=true;layout=neato;size=\"25,25\";fontsize=100;outputorder=edgesfirst;penwidth=10;sep=0];\
+    std::cout << "digraph G{graph[splines=polyline;forcelabels=true;layout=neato;size=\"40,40\";fontsize=100;outputorder=edgesfirst;penwidth=10;sep=0];\
                             node[fontsize=150;label=\"\";style=filled;fillcolor=black;color=white;penwidth=20];\
                             edge[penwidth=25;labelfloat=true];";
     //////////
@@ -266,3 +266,4 @@ int main(void){
     delete [] n_basutei;
     return 0;
 };
+
