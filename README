@@ -21,6 +21,8 @@
 4. 作りたいグラフ用のC++コードファイルをコンパイルして、実行する。標準出力にDOT言語のコードが出力されるので、ファイルに保存する。
 5. 保存したファイルを-n1オプションを付けてGraphvizに入力する。
 
+4, 5はcompile.shを実行することでも行えます。
+
 コマンド実行例:
 c++ tbcn_bus_graph_cpp_1.cpp -o tbcn_bus_graph_cpp_1.exe
 tbcn_bus_graph_cpp_1>tbcn_bus_graph_cpp_1.dot
